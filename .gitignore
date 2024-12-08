@@ -1,0 +1,3 @@
+# General ignore
+.DS_Store
+node_modules/

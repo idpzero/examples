@@ -1,0 +1,8 @@
+# Ignore the cache directory
+.idpzero/cache/
+.DS_Store
+node_modules/
+
+# React Router
+.react-router/
+build/
