@@ -111,3 +111,14 @@ export let ensureAuthenticated = async ({ request }: { request: Request }) : Pro
     throw e;
   }
 }
+
+export let getUserOrNull = async ({ request }: { request: Request }) : Promise<User | null> => {
+  let session = await sessionStorage.getSession(request.headers.get("cookie"));
+  let user : User = session.get("user");
+  
+  if (user) {
+    return user;
+  }
+
+  return null
+}
