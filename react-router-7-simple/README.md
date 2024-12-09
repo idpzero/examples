@@ -1,6 +1,8 @@
 # React Router 7 + Remix Auth + IDPZero
 
-Example implementation of a skeleton React Router 7 implementation with OAuth2 authentication via idpzero.
+Example implementation of a skeleton React Router 7 implementation with OAuth2 authentication via idpzero. The following is a sample of the demo.
+
+<img src="example.gif" alt="alt text" width="600" />
 
 ## Start idpzero
 

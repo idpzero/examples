@@ -17,7 +17,7 @@ clients:
   response_types:
   - code
 users:
-- subject: john_verified_email
+- subject: john
   login_display: John Jones
   claims:
     email: john@example.com
@@ -25,7 +25,7 @@ users:
     name: John Jones
     given_name: John
     family_name: Jones
-- subject: mary_verified_email
+- subject: mary
   login_display: Mary Smith
   claims:
     email: mary@example.com

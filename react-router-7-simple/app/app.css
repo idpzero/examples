@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer base {
+  /* body {
+    @apply bg-background text-foreground;
+  } */
+  .idpzero {
+    @apply bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text font-bold;
+  }
+}
+
+
 html,
 body {
   @apply bg-white dark:bg-gray-950;

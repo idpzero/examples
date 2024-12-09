@@ -2,7 +2,12 @@
 
 The following are examples / references showcasing integration of `idpzero` in various frameworks / languages.
 
-Example implementations that use idpzero
-- `/react-router-7` - React Router 7 with OAuth2 configuration enabled.
+> [!NOTE]
+> Ensure you have installed idpzero. See [Getting Started](https://idpzero.dev/guide/getting-started.html) for more information.
+
+| Example | Framework / Language | Description |
+|-------|-----------------|----|
+| [react-router-7-simple](./react-router-7-simple/README.md) | NodeJS + React Router 7 | Simple react router 7 using id_token |
+
 
 
